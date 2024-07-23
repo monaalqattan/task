@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+p, a, span, div{
+    font-size: 1.25rem
+}
+ul{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color:white;
+}
+/* a:active{} */
+/* a:visited{} */
+a:hover{}
+img{ max-width: 100%; }
+.text-gold{color:#D4A750;}
+.text-dark{color:#000000;}
+.text-white{color:white;}
+.bg-gold{background-color: #D4A750;}
+.bg-dark{background-color: black;}
+.container{ width:90%; margin: 0 auto;}
+.d-flex{ display: flex;}
+.space-between{ justify-content: space-between;}
+.py-1{ padding: 1% 0;}
+#logo{ width:4.5rem;}
+.active{
+    color: #D4A750;
+}
+/* .nav-item { 
+    margin: 0 2%;
+} */
+/* .nav-item:hover{
+    background-color: #D4A750;
+    color: #000000;
+} */
+.nav-items{
+    width:40%;
+    align-self: center;
+}
+.nav-items ul{
+    width:100%
+}
+.drop-down{
+    display: none;
+}
+.sec1{
+    background-image: url(../images/img2.jpg);
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: scaleBackground 10s infinite;
+    z-index: -1;
+}
+.overlay{
+    font-size: 24px;
+    text-align: center;
+   padding-top: 17%;
+   padding-bottom:17%;
+    position: relative;
+    color: white;
+    transform: translateY(-50%);
+    top: 50%;
+}
+@keyframes scaleBackground {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.display-flex{
+    display: flex;
+}
+.sec2{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+    padding-left: 20px;
+}
+div iframe {
+    max-width: 100%;
+}
+.align-self{
+    align-self: center;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.mainbg{background-color: #ffffff;}
+.my{ margin: 5% auto}
+.container{ width: 90%;}
+.row{padding: 0;margin: 0; }
+.col-4{ 
+    width: 30%;
+    margin: 0; padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px rgb(255, 255, 255);
+    box-shadow: #d6c5c5;
+    box-shadow: 0 0 3px rgb(110, 107, 107);
+}
+.justify{text-align: justify;}
+.img-fluid{ width: 100%; height: auto;}
+.content-padding{ 
+    padding: 2%;
+    height: 100px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.mr{
+    padding-top: 20px;
+}
